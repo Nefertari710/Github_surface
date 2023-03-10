@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:brown;
+    font-weight: bolder;
+}
+
+.container:not(.nickname):hover{
+    background-color: blanchedalmond;
+}
+
+.container.nicknamed{
+    background-color: darksalmon;
+}
+
+
+.container.nicknamed:hover{
+    background-color: rgb(58, 30, 21);
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+  
