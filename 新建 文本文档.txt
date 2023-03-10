@@ -1,0 +1,22 @@
+github guide
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+git init
+
+Explain: Initialization Git
+
+------------------------------------------------------------------------
+git add . 
+
+Explain: Submitted to the cache. There is a space between "add" and "." here. If you don't write spaces, git can't recognize it. "add ." Here is the meaning of adding all files
+
+------------------------------------------------------------------------
+git commit -m “your information”
+
+Explain: Submit the changes in the temporary storage area to the local repository. Here "your submission information" is the information you want to submit
+
+------------------------------------
+git push
+
+Explain: Push the branch of the local version library to the corresponding branch on the remote server, submit it to the remote github warehouse
+------------------------------------------------------------------------
