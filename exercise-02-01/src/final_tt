@@ -1,0 +1,22 @@
+import styles from './ToDoList6.module.css';
+import NewToDoItem from "./NewToDoItem.jsx";
+import styles4 from "./ToDoList4.module.css"
+
+function ToDoList6({ items, handleDoneList, handleAddTodo,handleRemove}) {
+  return (
+    items.map((item,index) =>(
+      <div className={styles.todo}>
+        <label className={item.isComplete ? styles4.liComplete : undefined}>
+          <input type="checkbox"
+                 checked={item.isComplete}
+                 onChange={e => handleDoneList(item, e.target.checked)} />
+          {item.description}
+          {item.isComplete && <span> (Done!)</span>}
+        </label>
+        <button onClick={()=>handleRemove(index)}>Remove</button>
+      </div>
+    ))
+  );
+}
+
+export default ToDoList6;

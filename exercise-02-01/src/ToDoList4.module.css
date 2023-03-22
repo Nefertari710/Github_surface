@@ -1,0 +1,39 @@
+.container{
+    border: 4px solid darksalmon;
+    padding: 2px;
+    display: block;
+    justify-content: left;
+    justify-items: left;
+}
+ul{
+    display: block;
+    list-Style: '';
+    padding: 0;
+    margin: 0;
+}
+li{
+    display: block;
+    border: 5px solid whitesmoke;
+    padding: 0;
+    background-color: darkgrey;
+}
+
+li:hover {
+    background-color: lightsteelblue;
+}
+.liComplete{
+    color: lightslategray;
+    display: block;
+    padding: 0;
+    text-decoration: line-through;
+    background-color: lightgrey;
+}
+
+.done {
+    color: darkgray;
+    text-decoration: line-through;
+}
+
+.button1{
+    float:right;
+}
